@@ -4112,13 +4112,12 @@ function f_initIcons() {
   var w = 900;
   var h = 700;
 
-  var jimg1 = $(
-    "<div class='tab selected'><img src='./img/component-icon.png'/></div>"
-  ).appendTo("#tabs");
-  var jimg2 = $(
-    "<div class='tab'><img src='./img/factory-icon.png'/></div>"
-  ).appendTo("#tabs");
-
+    var jimg1 = $(
+      "<div class='tab selected'><img src='./img/component-icon.png'/></div>"
+    ).appendTo("#tabs");
+    var jimg2 = $(
+      "<div class='tab'><img src='./img/factory-icon.png'/></div>"
+    ).appendTo("#tabs");
 
   jimg1.click(function () {
     jicons2.removeClass("icons-selected");
