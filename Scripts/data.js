@@ -4191,12 +4191,19 @@ function getRecipe() {
     ["紫矩阵", "informationMatrix"],
     ["绿矩阵", "gravityMatrix"],
     ["宇宙矩阵", "universeMatrix"],
-    ["物质解压器火箭", "MatterDecompressor"]
-    ["谐振盘", "ResonantDisc"]
-    ["引力钻头", "GravitonDrill"]
-    ["隧穿激发器", "TunnelingExciter"]
-    ["引力发生器", "GravityGenerator"]
-    ["引力约束环", "PlaneConstrainRing"]
+    ["谐振盘", "ResonantDisc"],
+    ["引力钻头", "GravitonDrill"],
+    ["隧穿激发器", "TunnelingExciter"],
+    ["引力发生装置", "GravityGenerator"],
+    ["位面约束环", "PlaneConstrainRing"],
+    ["光子探针", "PlaneConstrainRing"],
+    ["星际组装厂组件", "PlaneConstrainRing"],
+    ["量子计算机", "PlaneConstrainRing"],
+    ["物质解压器火箭", "MatterDecompressor"],
+    ["科学枢纽火箭", "PlaneConstrainRing"],
+    ["谐振发射器火箭", "PlaneConstrainRing"],
+    ["星际组装厂火箭", "PlaneConstrainRing"],
+    ["晶体重构器火箭", "PlaneConstrainRing"],
     ["None", "None"],
   ];
   let outputHasHydrogen = false;
