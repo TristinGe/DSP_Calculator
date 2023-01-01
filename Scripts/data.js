@@ -4118,9 +4118,7 @@ function f_initIcons() {
   var jimg2 = $(
     "<div class='tab'><img src='./img/factory-icon.png'/></div>"
   ).appendTo("#tabs");
-  var jimg3 = $(
-    "<div class='tab'><img src='./img/magestructure-icon.png'/></div>"
-  ).appendTo("#tabs");
+
 
   jimg1.click(function () {
     jicons2.removeClass("icons-selected");
